@@ -1,0 +1,9 @@
+body {
+    padding: 20px;
+}
+img {
+    width: 600px;
+}
+#mantis, #snake, #turtle {
+    display: none;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/scripts.js"></script>
+	<title>Animal Wiki</title>
+</head>
+
+<body>
+	<div class="cotainer">
+		<div class="jumbotron">
+			<h1>Welcome to Our Animal Wiki!</h1>
+			<p>A place of learning about animals.</p>
+		</div>
+		<div class="well">
+			<form id="selector">
+				<h2>Which animal would you like to learn about today?</h2>
+				<div class="radio">
+					<label>
+						<input type="radio" name="animal" value="mantis">
+						Praying Mantis
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="animal" value="snake">
+						Generic Snake
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="animal" value="turtle">
+						Sea Turtle 
+					</label>
+				</div>
+				<button class="btn btn-info" type="submit">Submit!</button>
+			</form>
+		</div>
+		<div class="well" id="mantis">
+			<img src="img/mantis.jpg" alt="mantis image">
+			<p>The praying mantis!</p>
+		</div>
+		<div class="well" id="snake">
+			<img src="img/snake.jpg" alt="snake image">
+			<p>The snake!</p>
+		</div>
+		<div class="well" id="turtle">
+			<img src="img/turtle.jpg" alt="turtle image">
+			<p>The Sea turtle!</p>
+		</div>
+	
+	</div>
+</body>
+
+</html>
