@@ -6,19 +6,18 @@ $(document).ready(function() {
         event.preventDefault();
 
         if (animal === "mantis") {
-            // $("#turtle").hide();
-            // $("#snake").hide();
-            $("#mantis").toggle();
+            $("#turtle").hide();
+            $("#snake").hide();
+            $("#mantis").show();
+        }   else if (animal === "snake") {
+            $("#turtle").hide();
+            $("#mantis").hide();
+            $("#snake").show();
+        }   else if (animal === "turtle") {
+            $("#snake").hide();
+            $("#mantis").hide();
+            $("#turtle").show();
         }
-        // }   else if (animal === "snake") {
-        //     // $("#turtle").hide();
-        //     // $("#mantis").hide();
-        //     // $("#snake").show();
-        // }   else if (animal === "turtle") {
-        //     // $("#snake").hide();
-        //     // $("#mantis").hide();
-        //     // $("#turtle").show();
-        // }
 
     });
 });
